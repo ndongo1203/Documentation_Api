@@ -1,22 +1,20 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import React from 'react'
+import { Container, Navbar, Nav } from 'react-bootstrap';
 
 function NavbarCompenent() {
   return (
-    <>
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+    <div>
+    <Navbar>
+        <Container fluid>
+          <Navbar.Brand href="#home">REST Countries</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#home">Vieuw on GitLab</Nav.Link>
+            <Nav.Link href="#features">Issues</Nav.Link>
           </Nav>
         </Container>
-      </Navbar>
-    </>
-  );
+    </Navbar>
+    </div>
+  )
 }
 
-export default NavbarCompenent;
+export default NavbarCompenent
