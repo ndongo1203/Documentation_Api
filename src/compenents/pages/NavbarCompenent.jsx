@@ -4,7 +4,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 function NavbarCompenent() {
   return (
     <div>
-    <Navbar>
+    <Navbar >
         <Container fluid>
           <Navbar.Brand href="#home">REST Countries</Navbar.Brand>
           <Nav className="me-auto">

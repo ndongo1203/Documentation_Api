@@ -4,7 +4,7 @@ import { Nav } from 'react-bootstrap';
 const SidebarCompenent = () => {
   return (
     <div>
-    <Nav className="flex-column test">
+    <Nav className="flex-column test position-fixed">
         <Nav.Link className='LinkNav' href="#home" style={{ color: '#9090AA', }}>REST CONTRIES <span className='fontPE'>PE</span></Nav.Link>
         <Nav.Link className='LinkNav' href="#features" style={{ color: '#9090AA', }}>ABOUT THIS PROJECT <br />
           <a href="#info" className='text-black fw-bolder' style={{ textDecoration: 'none', }}>Important Information</a>
